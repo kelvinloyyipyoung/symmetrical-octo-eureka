@@ -5,55 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
   <link rel="stylesheet" href="/styles.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      color: #333;
-      background: url('https://images.unsplash.com/photo-1546868762-b61266729c8a?q=80&w=1370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
-      background-size: cover;
-      backdrop-filter: blur(5px);
-      margin: 0;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      height: 100vh;
-    }
-    .content {
-      width: 90%;
-      max-width: 800px;
-      background: rgba(255, 255, 255, 0.8);
-      padding: 20px;
-      margin: 20px;
-      border-radius: 10px;
-      backdrop-filter: blur(5px);
-    }
-    header, section, footer {
-      width: 100%;
-    }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-    nav ul li {
-      margin: 10px;
-    }
-    nav ul li a {
-      text-decoration: none;
-      color: #007BFF;
-    }
-    nav ul li a:hover {
-      text-decoration: underline;
-    }
-  </style>
 </head>
 <body>
   <div class="content">
     <header>
-      <h1>Welcome to My Portfolio</h1>
+      <h1>Kelvin Young</h1>
     </header>
 
     <section>
@@ -61,15 +17,11 @@
       <p>
         <ul>
           <li>CS grad from RMIT</li>
-          <li>Python dev & data analyst</li>
-          <li>Currently interested in emulating regression models with LLMs</li>
+          <li>Python Developer</li>
+          <li>Data Analyst</li>
+          <li>I make random tools and put them on this website.</li>
         </ul>
-        Let's connect!
-        <ul>
-          <li>Email: kelvinloyyipyoung@gmail.com</li>
-          <li>Phone: 0406815094</li>
-          <li>LinkedIn: kelvinloyyipyoung</li>
-        </ul>
+        <!-- Removed "Let's connect!" section from here -->
       </p>
     </section>
 
@@ -77,16 +29,25 @@
       <h2>Projects</h2>
       <nav>
         <ul>
-          <li><a href="https://upgraded-dollop-9qco.onrender.com">Dollop: Stock Tracker</a></li>
-          <li><a href="https://render.com/project2">Data Analysis Dashboard</a></li>
-          <li><a href="https://render.com/project3">Machine Learning Model</a></li>
+          <li><a href="https://upgraded-dollop-production.up.railway.app">Upgraded Dollop</a></li>
+          <li><a href="https://automatic-memory-production.up.railway.app">Automatic Memory</a></li>
           <!-- Add more links as needed -->
         </ul>
       </nav>
     </section>
 
     <footer>
-      <p>Connect with me on <a href="https://linkedin.com/in/your-profile">LinkedIn</a></p>
+      <div class="contact-info">
+        <nav>
+          <strong>Let's connect!</strong>
+          <!-- Updated list to be spaced out horizontally -->
+          <ul>
+            <li>Email: kelvinloyyipyoung@gmail.com</li>
+            <li>Phone: 0406815094</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/kelvinloyyipyoung/">kelvinloyyipyoung</a></li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </div>
 </body>
